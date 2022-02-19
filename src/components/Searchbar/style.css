@@ -1,0 +1,19 @@
+.search-input {
+  text-align: center;
+}
+.search-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 340px;
+}
+.search-card img {
+  height: 100%;
+  padding-top: 18px;
+}
+.search-input input {
+  width: 40%;
+  padding: 10px;
+}
+.search-input Button {
+  padding: 10px;
+}

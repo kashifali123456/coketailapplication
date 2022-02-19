@@ -1,0 +1,8 @@
+.popularingredients {
+  padding-top: 20px;
+}
+.PI-map {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}

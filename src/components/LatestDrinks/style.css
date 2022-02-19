@@ -1,0 +1,9 @@
+.Lcard-temp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px 40px;
+  padding-top: 20px;
+}
+.latest-drinks {
+  padding-top: 20px;
+}

@@ -1,0 +1,8 @@
+.random-ingredient {
+  padding-top: 20px;
+}
+.Ri-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}

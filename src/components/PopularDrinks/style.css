@@ -1,0 +1,14 @@
+h2,
+h4 {
+  color: #fff;
+  text-align: center;
+}
+.Pd-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px 40px;
+  padding-top: 40px;
+}
+.popular-drinks {
+  padding-top: 10px;
+}
