@@ -28,7 +28,7 @@ const Routers = () => {
       <Router>
         <Navbar setSearch={setSearch} />
         <Routes>
-          {/* <Route path="/home" exact element={<Home menuItems={menuItems} />} /> */}
+          <Route path="/" exact element={<Home menuItems={menuItems} />} />
           {/* <Route path="/api" exact element={<API />} /> */}
         </Routes>
         <Footer />

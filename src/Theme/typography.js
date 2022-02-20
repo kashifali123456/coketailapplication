@@ -20,14 +20,15 @@ const typography = {
   h1: {
     color: "white",
     fontSize: "2rem",
-    fontWeight: 600,
+    fontWeight: 500,
     lineHeight: 1.25,
   },
   h2: {
     color: "white",
-    fontSize: "1.75rem",
-    fontWeight: 600,
-    lineHeight: 1.25,
+    fontSize: "2.5rem",
+    fontWeight: 500,
+    lineHeight: 2.1,
+    fontFamily: "'Open Sans', sans-serif",
   },
   h3: {
     color: "white",
@@ -55,7 +56,7 @@ const typography = {
   },
   body1: {
     color: "white",
-    fontSize: 13,
+    fontSize: 15,
   },
   button: {
     textTransform: "none",
