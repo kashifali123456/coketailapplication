@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./style.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Home from "../Pages/Home";
@@ -23,15 +22,14 @@ const Routers = () => {
     }
   };
   useEffect(handleSearch, [search]);
-  
 
   return (
     <>
       <Router>
         <Navbar setSearch={setSearch} />
         <Routes>
-          <Route path="/home" exact element={<Home menuItems={menuItems} />} />
-          <Route path="/api" exact element={<API />} />
+          {/* <Route path="/home" exact element={<Home menuItems={menuItems} />} /> */}
+          {/* <Route path="/api" exact element={<API />} /> */}
         </Routes>
         <Footer />
       </Router>

@@ -1,9 +1,13 @@
+import { ThemeProvider } from "@material-ui/core";
 import "./App.css";
 import Routers from "./Routers";
-
-// import Button from "./Units/Button";
+import theme from "./Theme";
 function App() {
-  return <Routers />;
+  return (
+    <ThemeProvider theme={theme}>
+      <Routers />
+    </ThemeProvider>
+  );
 }
 
 export default App;
